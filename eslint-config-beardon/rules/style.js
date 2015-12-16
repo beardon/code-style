@@ -23,7 +23,7 @@ module.exports = {
         // enforces use of function declarations or expressions
         'func-style': 0,
         // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
-        'id-length': [2, { 'min': 2, 'properties': 'never', 'exceptions': ['i', 'j', 'k', 'x', 'y', 'z'] }],
+        'id-length': [2, { 'min': 2, 'properties': 'never', 'exceptions': ['i', 'j', 'k', 'x', 'y', 'z', '_', '$'] }],
         // require identifiers to match the provided regular expression
         'id-match': 0,
         // specify tab or space width for your code
