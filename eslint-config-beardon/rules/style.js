@@ -27,7 +27,7 @@ module.exports = {
         // require identifiers to match the provided regular expression
         'id-match': 0,
         // specify tab or space width for your code
-        'indent': [2, 4, { 'SwitchCase': 1, 'VariableDeclarator': { 'var': 2, 'let': 2, 'const': 3 } }],
+        'indent': [2, 4],
         // specify whether double or single quotes should be used in JSX attributes
         'jsx-quotes': [2, 'prefer-double'],
         // enforces spacing between keys and values in object literal properties
