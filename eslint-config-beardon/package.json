@@ -1,11 +1,13 @@
 {
   "name": "eslint-config-beardon",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Beardon's ESLint config",
   "main": "index.js",
   "dependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3"
+    "eslint-config-airbnb-base": "^10.0.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": ">= 6"
   },
   "scripts": {
     "test": "echo \"Everything is fine\""
